@@ -14,13 +14,6 @@ This project applies **Logistic Regression** to determine whether the **home tea
 - Model training & evaluation  
 - Visualization of results
 
-## Project Structure
-NBA-Game-Outcome-Predictor/
-├── data/                # Dataset (games.csv, not included if file >100MB)
-├── notebooks/           # Jupyter notebooks with code & analysis
-├── requirements.txt     # Required Python packages
-└── README.md            # Project overview
-
 ## Workflow
 1. **Data**  
    - Load 26,651 games from CSV  
