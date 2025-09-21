@@ -60,5 +60,9 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook
 ```
-### 5. Open the notebook
+### 5. Open the Notebook
 notebooks/nba_win_predictor.ipynb
+
+## 🙏 Credits
+- **Dataset:** NBA Games (2004–2018) dataset by [Nathan Lauga on Kaggle](https://www.kaggle.com/datasets/nathanlauga/nba-games).  
+- **Libraries:** [pandas](https://pandas.pydata.org/), [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/), [scikit-learn](https://scikit-learn.org/). 
