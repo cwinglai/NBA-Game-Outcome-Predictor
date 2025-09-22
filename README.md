@@ -21,17 +21,17 @@ This project applies **Logistic Regression** to determine whether the **home tea
    - Target: HOME_TEAM_WINS (1=Win, 0=Loss)
    - Selected relevant home team features (PTS, REB, AST, FG%, FT%, 3PT%).  
 3. **Data Cleaning**  
-   -Handled 99 missing values with mean imputation
-   -Restored DataFrame structure
+   - Handled 99 missing values with mean imputation
+   - Restored DataFrame structure
 4. **Train/Test Split**  
-   -80% training (21,320 games)
-   -20% testing (5,331 games)
+   - 80% training (21,320 games)
+   - 20% testing (5,331 games)
 5. **Model Training and Prediction**  
-   -Trained logistic regression
-   -Made predictions on test set
+   - Trained logistic regression
+   - Made predictions on test set
 6. **Performance Evaluation**
-   -Calculate 76.08% accuracy
-   -Generate detailed metrics
+   - Calculate 76.08% accuracy
+   - Generate detailed metrics
 
 ## Results
 - **Accuracy:** The logistic regreession model achieved approximately 76% accuracy in predicting game outcomes on the test set.  
