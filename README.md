@@ -1,6 +1,6 @@
 # NBA Game Outcome Predictor
 
-A machine learning projects that predicts the outcome of NBA games outcomes (home win or loss) using historical game data.
+A machine learning projects that predicts the outcome of NBA games (home win or loss) using historical game data.
 The model is trained on **26,651 NBA games** from the 2004–2018 seasons with a focus on a subset of home team statistics.  
 This project applies **Logistic Regression** to determine whether the **home team** wins or loses.
 
