@@ -5,7 +5,7 @@ The model is trained on **26,651 NBA games** from the 2004–2018 seasons with a
 This project applies **Logistic Regression** to determine whether the **home team** wins or loses.
 
 **Model Accuracy:** ~76%  
-**Key Insight**: *Field Goal (%)* happened to be the strongest predictor of a win, while assists contributed the least.*
+**Key Insight**: *Field Goal (%)* happened to be the strongest predictor of a win, while assists contributed the least.
 
 ## Overview
 - Data exploration - inital analysis of the dataset
