@@ -52,8 +52,9 @@ conda create -n nba-ml python=3.10
 conda activate nba-ml
 ```
 ### 3. Install dependencies
-Install all required packages from requirements.txt:
-
+```bash
+pip install -r requirements.txt
+```
 ### 4. Launch Jupyter Notebook
 ```bash
 jupyter notebook
