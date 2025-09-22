@@ -30,8 +30,8 @@ This project applies **Logistic Regression** to determine whether the **home tea
    - Trained logistic regression
    - Made predictions on test set
 6. **Performance Evaluation**
-   - Calculate 76.08% accuracy
-   - Generate detailed metrics
+   - Calculated the models accuracy using the test data (76.08%)
+   - Generated detailed metrics
 
 ## Results
 - **Accuracy:** The logistic regreession model achieved approximately 76% accuracy in predicting game outcomes on the test set.  
