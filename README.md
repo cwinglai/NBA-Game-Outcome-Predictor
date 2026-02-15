@@ -1,6 +1,6 @@
 # NBA Game Outcome Predictor
 
-A machine learning projects that predicts the outcome of NBA games (home win or loss) using historical game data.
+A machine learning project that predicts whether the home team wins or loses an NBA game using historical game data.
 The model is trained on **26,651 NBA games** from the 2004–2018 seasons with a focus on a subset of home team statistics.  
 This project applies **Logistic Regression** to determine whether the **home team** wins or loses.
 
@@ -8,11 +8,24 @@ This project applies **Logistic Regression** to determine whether the **home tea
 **Key Insight**: *Field Goal (%)* happened to be the strongest predictor of a win, while assists contributed the least.
 
 ## Overview
-- Data exploration - inital analysis of the dataset
+- Data exploration - initial analysis of the dataset
 - Preprocessing - handling missing values 
 - Feature selection - choosing relevant statistics for prediction 
 - Model training & evaluation - apply logistic regression
 - Visualization of results - plotting and interpretation of results
+
+## Interactive Dashboard (Tableau)
+
+This project includes a Tableau dashboard to visualize:
+
+- Model Accuracy KPI
+- Confusion Matrix (Prediction vs Actual)
+- Feature Importance (Logistic Regression Coefficients)
+- Win vs Loss Distribution (2004–2018)
+
+The dashboard provides an executive-level summary of model performance and feature insights.
+
+See: dashboards/dashboard_tableau.png
 
 ## Workflow
 1. **Data**  
@@ -30,14 +43,37 @@ This project applies **Logistic Regression** to determine whether the **home tea
    - Trained logistic regression
    - Made predictions on test set
 6. **Performance Evaluation**
-   - Calculated the models accuracy using the test data (76.08%)
+   - Calculated the model's accuracy using the test data (76.08%)
    - Generated detailed metrics
 
+## Tech Stack
+- Python 3.10
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Tableau (Data Visualization)
+
+## 📁 Project Structure
+nba-game-outcomes/
+│
+├── dashboards/
+│   └── dashboard_tableau.png
+├── data/
+│   └── games.csv
+├── notebooks/
+│   └── nba_outcome.ipynb
+├── README.md
+├── requirements.txt
+  
 ## Results
-- **Accuracy:** The logistic regreession model achieved approximately 76% accuracy in predicting game outcomes on the test set.  
+- **Accuracy:** The logistic regression model achieved approximately 76% accuracy in predicting game outcomes on the test set.  
 - **Insights:**  
-  - Field Goal % (FG%) was the most important/influential feature for predicting a home win.  
-  - Assists (AST) contributed the least in other words the least predictive feature in the model.
+  - Field Goal % (FG%) was the most important/influential feature for predicting a home win.
+  - Three-Point % and Free Throw % also showed meaningful impact.
+  - Assists (AST) contributed the least in other words, contributed minimally relative to shooting efficiency metrics.
+ 
+  This suggests shooting efficiency plays a more significant role in predicting game outcomes than volume-based statistics.
 
 ## ⚙️ Setup & Installation
 
