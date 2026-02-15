@@ -63,18 +63,6 @@ See: dashboards/dashboard_tableau.png
    - Calculated the model's accuracy using the test data (76.08%)
    - Generated detailed metrics
 
-## 📁 Project Structure
-nba-game-outcomes/
-│
-├── dashboards/
-│   └── dashboard_tableau.png
-├── data/
-│   └── games.csv
-├── notebooks/
-│   └── nba_outcome.ipynb
-├── README.md
-├── requirements.txt
-  
 
 ## ⚙️ Setup & Installation
 
