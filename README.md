@@ -4,7 +4,7 @@ A machine learning project that predicts whether the home team wins or loses an 
 The model is trained on **26,651 NBA games** from the 2004–2018 seasons with a focus on a subset of home team statistics.  
 This project applies **Logistic Regression** to determine whether the **home team** wins or loses.
 
-**Model Accuracy:** ~76%  
+**Model Accuracy:** ~76.08%  
 **Key Insight**: *Field Goal (%)* happened to be the strongest predictor of a win, while assists contributed the least.
 
 ## Results
