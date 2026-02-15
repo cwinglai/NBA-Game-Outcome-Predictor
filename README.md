@@ -27,7 +27,7 @@ This project includes a Tableau dashboard to visualize:
 
 The dashboard provides an executive-level summary of model performance and feature insights.
 
-See: dashboards/dashboard_tableau.png 
+![NBA Dashboard](nba-game-outcomes/dashboards/dashboard_tableau.png)
 
 ## Tech Stack
 - Python 3.10
@@ -42,7 +42,7 @@ See: dashboards/dashboard_tableau.png
 - Preprocessing - handling missing values 
 - Feature selection - choosing relevant statistics for prediction 
 - Model training & evaluation - apply logistic regression
-- Visualization of results - plotting and interpretation of results
+- Visualization of results - plotting and interpretation of results using Tableau
 
 ## Workflow
 1. **Data**  
