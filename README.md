@@ -7,12 +7,14 @@ This project applies **Logistic Regression** to determine whether the **home tea
 **Model Accuracy:** ~76%  
 **Key Insight**: *Field Goal (%)* happened to be the strongest predictor of a win, while assists contributed the least.
 
-## Overview
-- Data exploration - initial analysis of the dataset
-- Preprocessing - handling missing values 
-- Feature selection - choosing relevant statistics for prediction 
-- Model training & evaluation - apply logistic regression
-- Visualization of results - plotting and interpretation of results
+## Results
+- **Accuracy:** The logistic regression model achieved approximately 76% accuracy in predicting game outcomes on the test set.  
+- **Insights:**  
+  - Field Goal % (FG%) was the most important/influential feature for predicting a home win.
+  - Three-Point % and Free Throw % also showed meaningful impact.
+  - Assists (AST) contributed the least in other words, contributed minimally relative to shooting efficiency metrics.
+ 
+  This suggests shooting efficiency plays a more significant role in predicting game outcomes than volume-based statistics.
 
 ## Interactive Dashboard (Tableau)
 
@@ -25,7 +27,22 @@ This project includes a Tableau dashboard to visualize:
 
 The dashboard provides an executive-level summary of model performance and feature insights.
 
-See: dashboards/dashboard_tableau.png
+See: dashboards/dashboard_tableau.png 
+
+## Tech Stack
+- Python 3.10
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Tableau (Data Visualization)
+
+## Overview
+- Data exploration - initial analysis of the dataset
+- Preprocessing - handling missing values 
+- Feature selection - choosing relevant statistics for prediction 
+- Model training & evaluation - apply logistic regression
+- Visualization of results - plotting and interpretation of results
 
 ## Workflow
 1. **Data**  
@@ -46,14 +63,6 @@ See: dashboards/dashboard_tableau.png
    - Calculated the model's accuracy using the test data (76.08%)
    - Generated detailed metrics
 
-## Tech Stack
-- Python 3.10
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Tableau (Data Visualization)
-
 ## 📁 Project Structure
 nba-game-outcomes/
 │
@@ -66,14 +75,6 @@ nba-game-outcomes/
 ├── README.md
 ├── requirements.txt
   
-## Results
-- **Accuracy:** The logistic regression model achieved approximately 76% accuracy in predicting game outcomes on the test set.  
-- **Insights:**  
-  - Field Goal % (FG%) was the most important/influential feature for predicting a home win.
-  - Three-Point % and Free Throw % also showed meaningful impact.
-  - Assists (AST) contributed the least in other words, contributed minimally relative to shooting efficiency metrics.
- 
-  This suggests shooting efficiency plays a more significant role in predicting game outcomes than volume-based statistics.
 
 ## ⚙️ Setup & Installation
 
