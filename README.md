@@ -27,7 +27,7 @@ This project includes a Tableau dashboard to visualize:
 
 The dashboard provides an executive-level summary of model performance and feature insights.
 
-![NBA Dashboard](nba-game-outcomes/dashboards/dashboard_tableau.png)
+<img width="805" height="537" alt="Screenshot 2026-02-14 at 6 19 22 PM" src="https://github.com/user-attachments/assets/a5b23b1d-bcf1-44dc-867b-b0a2e7fa88cb" />
 
 ## Tech Stack
 - Python 3.10
